@@ -1,12 +1,50 @@
-# React + Vite
+# Music App
+A sleek and modern frontend music streaming web app built using **React.js** and **Tailwind CSS**. The app provides a clean UI for exploring songs, uploading tracks, and creating personalized playlists.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Preview 
+<img width="1896" height="875" alt="image" src="https://github.com/user-attachments/assets/4f05b111-99ac-405a-b82f-da4374141183" />
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/e5656179-c41c-4d49-8e73-cdb279967084" />
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/1fbb8196-604c-4934-8605-b8afd2f91ae7" />
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/a6c6b127-9b57-44f4-9e8f-24371742ba98" />
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/21e10758-d9eb-49cf-8233-caa92e598e68" />
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/eac5044f-3a0a-4bdb-aaa1-0d09ef3f0b8c" />
 
-Currently, two official plugins are available:
+## Features
+-  **Playlist Creation:** Add and manage your own playlists with ease.
+-  **Song Upload:** Upload your favorite tracks and play them instantly.
+-  **Modern UI:** Fully responsive, mobile-friendly interface with Tailwind CSS.
+-  **Search & Filter:** Quickly find songs or artists.
+-  **Music Player:** Play, pause, and control audio playback.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **State Management:** useState, useEffect
+- **File Handling:** HTML5 Audio, FileReader API
 
-## Expanding the ESLint configuration
+##  Getting Started
+### 1. Clone the repository
+```bash
+git clone https://github.com/adityaM42/music-app.git
+cd music-app
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Start the development server
+```bash
+npm run dev
+```
+App will run at http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## To-Do / Future Improvements
+- Add backend integration for storing uploaded songs
+- Add volume control and progress slider
+- Progressive Web App (PWA) support
+- User authentication and playlist sync
+
+
+
+
+
+
